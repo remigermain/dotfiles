@@ -12,5 +12,5 @@ if [[ $# != 0 ]]; then
     CMD=$@
 fi
 
-echo "Install ${apps[@]}"
+echo "Install ${apps[@]}..."
 sudo $CMD ${apps[@]}
