@@ -1,0 +1,77 @@
+{
+    // global
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "atomKeymap.promptV3Features": true,
+
+    "workbench.startupEditor": "none",
+    "workbench.commandPalette.history": 10,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Menlo for Powerline, FiraFlott, monospace",
+    "extensions.ignoreRecommendations": true,
+
+    "workbench.tips.enabled": false,
+    "editor.renderWhitespace": "all",
+    "explorer.openEditors.visible": 0,
+
+    // eslint
+    "eslint.validate": ["vue", "html", "javascript", "json"],
+    
+    // editor
+    "editor.fontFamily": "FiraFlott, monospace",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [80],
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "editor.quickSuggestionsDelay": 1,
+    
+    // theme
+    "workbench.iconTheme": "material-icon-theme",
+    
+    // c++
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.updateChannel": "Insiders",
+
+    // python
+    "python.pythonPath": "/usr/bin/python3",
+    "python.venvPath": "./venv",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    
+    // git 
+    "git.enableSmartCommit": true,
+    "gitlens.codeLens.enabled": false,
+    //"gitlens.views.repositories.location": "scm",
+    //"gitlens.views.fileHistory.location": "scm",
+    //"gitlens.views.lineHistory.location": "scm",
+    //"gitlens.views.compare.location": "scm",
+    //"gitlens.views.search.location": "scm",
+    //"gitlens.showWhatsNewAfterUpgrades": false,
+    "git.confirmSync": false,
+    
+    // highlight html
+    "editor.occurrencesHighlight": false,
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "full": {
+                "highlight": "rgba(49,101,153, 0.7)"
+            }
+        }
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "python.jediEnabled": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.shell.linux": "/bin/zsh"
+}
