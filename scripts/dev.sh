@@ -5,7 +5,6 @@ apps=(
     snapd
 	git
 	zsh
-	terminator
 	vim
  	zsh
     curl

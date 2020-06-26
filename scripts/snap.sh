@@ -3,8 +3,8 @@
 echo "Install snap store..."
 sudo snap install snap-store
 
-echo "Install vscodium..."
-sudo snap install  codium  --classic
+# echo "Install vscodium..."
+# sudo snap install  codium  --classic
 
 echo "Install slack..."
 sudo snap install  Slack --classic
