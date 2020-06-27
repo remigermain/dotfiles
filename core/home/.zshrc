@@ -25,3 +25,11 @@ MANPATH=/usr/share/man
 function gi() {
     curl -sLw "\n" https://www.gitignore.io/api/$@ ;
 }
+
+function venv() {
+	source ./venv/bin/activate
+}
+
+function cvenv() {
+	python3 -m venv venv
+}

@@ -16,6 +16,8 @@ apps=(
     adb
     nodejs
     htop
+	java
+	ruby
 )
 
 CMD="apt install -y"
