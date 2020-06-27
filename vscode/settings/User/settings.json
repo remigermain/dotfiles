@@ -73,5 +73,6 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "terminal.integrated.shell.linux": "/bin/zsh"
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "vscode-w3cvalidation.validator-token": "Tue, 23 Jun 2020 14:41:50 GMT",
 }
