@@ -10,6 +10,7 @@ plugins=(
     docker
     npm
 )
+
 source $ZSH/oh-my-zsh.sh
 setopt shwordsplit
 
