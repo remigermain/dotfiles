@@ -18,6 +18,7 @@ apps=(
     htop
 	java
 	ruby
+	jq
 )
 
 CMD="apt install -y"

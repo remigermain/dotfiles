@@ -12,7 +12,7 @@ sudo $CMD libvirt*
 sudo $CMD cheese
 sudo $CMD totem totem-plugins
 sudo $CMD gnome-weather
-#sudo $CMD PackageKit gnome-software
+sudo $CMD PackageKit gnome-software
 sudo $CMD gnome-photos
 sudo $CMD simple-scan
 sudo $CMD gnome-logs
