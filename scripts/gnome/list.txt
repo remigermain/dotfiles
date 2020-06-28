@@ -1,4 +1,5 @@
 https://extensions.gnome.org/extension/19/user-themes/
+https://extensions.gnome.org/extension/307/dash-to-dock/
 https://extensions.gnome.org/extension/1485/workspace-matrix/
 https://extensions.gnome.org/extension/1503/tray-icons/
 https://extensions.gnome.org/extension/1625/soft-brightness/
