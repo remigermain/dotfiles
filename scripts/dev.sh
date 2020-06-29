@@ -5,6 +5,7 @@ apps=(
     snapd
 	git
 	zsh
+	tmux
 	vim
  	zsh
     curl

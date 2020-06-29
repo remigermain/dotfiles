@@ -5,5 +5,4 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 https://extensions.gnome.org/extension/1625/soft-brightness/
 https://extensions.gnome.org/extension/779/clipboard-indicator/
 https://extensions.gnome.org/extension/1362/custom-hot-corners/
-https://extensions.gnome.org/extension/517/caffeine/
 https://extensions.gnome.org/extension/1112/screenshot-tool/

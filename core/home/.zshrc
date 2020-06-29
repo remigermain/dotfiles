@@ -20,16 +20,22 @@ alias open="xdg-open"
 alias key_tablet="sh $HOME/scripts/Huion_WH1409.sh"
 MANPATH=/usr/share/man
 
+#if [ -z $TMUX ];
+#then
+#	tmux;
+#fi
 
 # git ignore
 function gi() {
     curl -sLw "\n" https://www.gitignore.io/api/$@ ;
 }
 
+# source venv
 function venv() {
 	source ./venv/bin/activate
 }
 
+# create venv
 function cvenv() {
 	python3 -m venv venv
 }

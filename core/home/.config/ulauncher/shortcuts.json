@@ -4,7 +4,7 @@
         "name": "mdn css",
         "keyword": "css",
         "cmd": "https://developer.mozilla.org/fr/docs/Web/CSS/%s",
-        "icon": "./icon/css.png",
+        "icon": "icon/css.png",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302078.8053803
@@ -14,7 +14,7 @@
         "name": "mdn search",
         "keyword": "scss",
         "cmd": "https://developer.mozilla.org/fr/search?q=%s",
-        "icon": "./icon/css.png",
+        "icon": "icon/css.png",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302110.0218751
@@ -24,7 +24,7 @@
         "name": "nuxtjs api",
         "keyword": "nuxtapi",
         "cmd": "https://fr.nuxtjs.org/api",
-        "icon": "./icon/NuxtJS_Logo.png",
+        "icon": "icon/NuxtJS_Logo.png",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302441.4097037
@@ -34,7 +34,7 @@
         "name": "nuxtjs guide",
         "keyword": "nuxt",
         "cmd": "https://fr.nuxtjs.org/guide",
-        "icon": "./icon/NuxtJS_Logo.png",
+        "icon": "icon/NuxtJS_Logo.png",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302467.7607918
@@ -44,7 +44,7 @@
         "name": "vuejs guide",
         "keyword": "vue",
         "cmd": "https://vuejs.org/v2/guide/",
-        "icon": "./icon/vuejs.jpg",
+        "icon": "icon/vuejs.jpg",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302553.0386581
@@ -54,7 +54,7 @@
         "name": "vuejs api",
         "keyword": "vueapi",
         "cmd": "https://vuejs.org/v2/api/",
-        "icon": "./icon/vuejs.jpg",
+        "icon": "icon/vuejs.jpg",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302583.2294958
@@ -64,7 +64,7 @@
         "name": "django",
         "keyword": "django",
         "cmd": "https://docs.djangoproject.com/en/3.0/",
-        "icon": "./icon/django-logo-big.jpg",
+        "icon": "icon/django-logo-big.jpg",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302610.756678
@@ -74,7 +74,7 @@
         "name": "django rest",
         "keyword": "rest",
         "cmd": "https://www.django-rest-framework.org/",
-        "icon": "./icon/1*MQ-Lf8tmtfa-pumN2Sh0cw.png",
+        "icon": "icon/1*MQ-Lf8tmtfa-pumN2Sh0cw.png",
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1593302637.3236818
