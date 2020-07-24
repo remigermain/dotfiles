@@ -12,17 +12,17 @@ flatpak install -y flathub com.slack.Slack
 echo "Install discord..."
 flatpak install -y flathub com.discordapp.Discord
 
-echo "Install vlc..."
-flatpak install -y flathub org.videolan.VLC
+#echo "Install vlc..."
+#flatpak install -y flathub org.videolan.VLC
 
-echo "Install inkscape..."
-flatpak install -y flathub org.inkscape.Inkscape
+#echo "Install inkscape..."
+#flatpak install -y flathub org.inkscape.Inkscape
 
-echo "Install krita..."
-flatpak install -y flathub org.kde.krita
+#echo "Install krita..."
+#flatpak install -y flathub org.kde.krita
 
-echo "Install keePassXc..."
-flatpak install -y flathub org.keepassxc.KeePassXC
+#echo "Install keePassXc..."
+#flatpak install -y flathub org.keepassxc.KeePassXC
 
-echo "Install transmission..."
-flatpak install -y flathub com.transmissionbt.Transmission
+#echo "Install transmission..."
+#flatpak install -y flathub com.transmissionbt.Transmission

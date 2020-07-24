@@ -11,3 +11,5 @@ sudo $CMD gnome-tweaks
 
 echo "install extentions..."
 ./extensions.sh -e -f list.txt
+
+gsettings set org.gnome.shell.app-switcher current-workspace-only true

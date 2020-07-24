@@ -9,6 +9,8 @@ apps=(
 	vim
  	zsh
     curl
+	python3
+	python3-venv
     valgrind
     sudo
     tree
@@ -17,7 +19,7 @@ apps=(
     adb
     nodejs
     htop
-	java
+	openjdk-8-jdk
 	ruby
 	jq
 )

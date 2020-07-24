@@ -39,3 +39,7 @@ function venv() {
 function cvenv() {
 	python3 -m venv venv
 }
+
+function you-dl () {
+	snap run youtube-dl -o  "~/music/youtube-dl/%(artist)s-%(track)s.%(ext)s"  --extract-audio --audio-format best "$@"
+}

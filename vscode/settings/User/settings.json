@@ -54,7 +54,7 @@
     //"gitlens.views.compare.location": "scm",
     //"gitlens.views.search.location": "scm",
     //"gitlens.showWhatsNewAfterUpgrades": false,
-    "git.confirmSync": false,
+    "git.confirmSync": true,
     
     // highlight html
     "editor.occurrencesHighlight": false,
@@ -74,5 +74,12 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "vscode-w3cvalidation.validator-token": "Tue, 23 Jun 2020 14:41:50 GMT",
+    "python.languageServer": "Microsoft",
+    "htmlhint.enable": true,
+    "htmlhint.documentSelector": [
+        "html",
+        "vue",
+        "vue-html",
+    ],
+    "editor.renderControlCharacters": true,
 }

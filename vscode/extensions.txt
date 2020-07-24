@@ -1,14 +1,16 @@
+AttilioCapocchiani.vuejs-helper
 batisteo.vscode-django
+bradlc.vscode-tailwindcss
 CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
 donjayamanne.python-extension-pack
 eamodio.gitlens
 ecmel.vscode-html-css
+EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
-html-validate.vscode-html-validate
 magicstack.MagicPython
 mkaufman.HTMLHint
 ms-python.python
@@ -17,8 +19,8 @@ mubaidr.vuejs-extension-pack
 octref.vetur
 PKief.material-icon-theme
 sdras.vue-vscode-snippets
+thebarkman.vscode-djaneiro
 tombonnike.vscode-status-bar-format-toggle
-Umoxfo.vscode-w3cvalidation
 vincaslt.highlight-matching-tag
 VisualStudioExptTeam.vscodeintellicode
 wholroyd.jinja
