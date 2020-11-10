@@ -1,12 +1,13 @@
 #!/bin/bash
 
-pwd=$(pwd)
-echo 'install zsh config...'
-rm -rf $HOME/.zshrc
-ln -s $pwd/core/home/.zshrc $HOME/.zshrc
+if [[ $# != 1 ]]; then
+    echo "you need to tell the os..."
+    exit 0
+fi
 
-echo 'install vim config...'
-rm -rf $HOME/.vimrc
-ln -s $pwd/core/home/.vimrc $HOME/.vimrc
-
-source $HOME/.zshrc
+if [[ $1 == "fedora" ]]; then
+    ./fedora/install.sh
+else
+    echo "wrong os..."
+    exit 0
+fi
