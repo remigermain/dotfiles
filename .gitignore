@@ -1,2 +1,2 @@
-vscode/settings/User/workspaceStorage/*
-vscode/settings/User/globalStorage/*
+common/settings/vscode/User/workspaceStorage
+common/settings/vscode/User/globalStorage

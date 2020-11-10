@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo -e "[FEDORA]"
-
 cd $(dirname "$0")
 
 ./app.sh
