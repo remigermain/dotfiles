@@ -4,8 +4,8 @@ echo -e "\n[VSCODE SETTINGS]"
 cd $(dirname "$0")
 
 #
-# $1 = path codium binary
-# $2 = path codium settings
+# @1 = path codium binary
+# @2 = path codium settings
 #
 
 if [[ $# != 2 ]]; then
