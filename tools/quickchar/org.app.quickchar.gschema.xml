@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/org/app/quickchar/"
+            id="org.app.quickchar">
+        <key type="b" name="showapp">
+            <summary>Show the application</summary>
+            <default>false</default>
+        </key>
+        <key type="b" name="enable-quickchar">
+            <summary>Run quickchar</summary>
+            <default>false</default>
+        </key>
+    </schema>
+</schemalist>
+
+

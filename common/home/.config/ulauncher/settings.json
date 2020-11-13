@@ -4,7 +4,7 @@
     "hotkey-show-app": "<Primary>space",
     "render-on-screen": "mouse-pointer-monitor",
     "show-indicator-icon": false,
-    "show-recent-apps": "0",
+    "show-recent-apps": false,
     "terminal-command": "",
     "theme-name": "Palenight Theme - By Frank Rocha"
 }

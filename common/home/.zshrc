@@ -27,10 +27,12 @@ alias py="python3"
 alias key_tablet="sh $HOME/scripts/Huion_WH1409.sh"
 MANPATH=/usr/share/man
 
-#if [ -z $TMUX ];
-#then
-#	tmux;
-#fi
+# active last session tmux
+tmux ls
+if [[ $? == 0 ]];
+then
+	tmux attach-session -t $(echo "1 - $(tmux ls | wc -l)" | bc);
+fi
 
 # git ignore
 function gi() {
@@ -50,22 +52,22 @@ function cvenv() {
 	deactivate
 }
 
-function you-dl () {
+function ydl () {
 	youtube-dl -o  "$HOME/youtube-dl/%(artist)s-%(track)s.%(ext)s"  --extract-audio --audio-format best "$@"
 }
 
 # docker
 function dps () {
-	sudo docker ps -a
+	docker ps -a
 }
 
 function dfclean () {
 	echo "clean image..."
-	sudo docker image rm -f $(sudo docker images -q) 1&>/dev/null
+	docker image rm -f $(sudo docker images -q) 1&>/dev/null
 	echo "clean volume..."
-	sudo docker volume prune -f 1&>/dev/null
+	docker volume prune -f 1&>/dev/null
 	echo "clean system..."
-	sudo docker system prune -f 1&>/dev/null
+	docker system prune -f 1&>/dev/null
 }
 
 function fram () {

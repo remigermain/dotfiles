@@ -14,9 +14,9 @@ if [[ $# != 2 ]]; then
 fi
 
 echo "link settings vscode..."
-mkdir -p $2
-rm -rf $2User
-ln -s "$(pwd)/settings/vscode/User" "$2User"
+mkdir -p $2/
+rm -rf $2/User
+ln -s "$(pwd)/settings/vscode/User" "$2/User"
 
 echo "install extensions..."
 $(cat $(pwd)/settings/vscode/extensions.txt | xargs -L 1 echo $1 --install-extension)

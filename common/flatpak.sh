@@ -2,7 +2,7 @@
 
 echo -e "\n[FLATPAK]"
 
-echo "add repo..."
+echo "add flathub repo..."
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 app=(

@@ -9,4 +9,4 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=gitlab.com_paulcarroty_vsco
 echo "install app..."
 sudo dnf install codium -y
 
-../common/vscode.sh $(which codium) "$HOME/.config/VSCodium/" 
+../common/vscode.sh $(which codium) "$HOME/.config/VSCodium" 

@@ -1,32 +1,112 @@
 {
-    "cba7178c-7724-49f0-8f1c-e34e54445d65": {
-        "id": "cba7178c-7724-49f0-8f1c-e34e54445d65",
-        "name": "Google Search",
-        "keyword": "g",
-        "cmd": "https://google.com/search?q=%s",
-        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
-        "is_default_search": true,
+    "cfc3cbf5-1705-4dba-9721-d2b2dcda3993": {
+        "id": "cfc3cbf5-1705-4dba-9721-d2b2dcda3993",
+        "name": "mdn css",
+        "keyword": "css",
+        "cmd": "https://developer.mozilla.org/fr/docs/Web/CSS/%s",
+        "icon": "~/.config/ulauncher/icon/css.png",
+        "is_default_search": false,
         "run_without_argument": false,
-        "added": 1605037364.6752672
+        "added": 1593302078.8053803
     },
-    "5f4ea0bd-b110-4186-93c2-ff6eb3482d54": {
-        "id": "5f4ea0bd-b110-4186-93c2-ff6eb3482d54",
-        "name": "Stack Overflow",
-        "keyword": "so",
-        "cmd": "http://stackoverflow.com/search?q=%s",
-        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
-        "is_default_search": true,
+    "f887d290-cfca-4064-8ca2-159dade92ffa": {
+        "id": "f887d290-cfca-4064-8ca2-159dade92ffa",
+        "name": "mdn search",
+        "keyword": "scss",
+        "cmd": "https://developer.mozilla.org/fr/search?q=%s",
+        "icon": "~/.config/ulauncher/icon/css.png",
+        "is_default_search": false,
         "run_without_argument": false,
-        "added": 1605037364.6753275
+        "added": 1593302110.0218751
     },
-    "a20db7e9-2fcb-46ed-a4a7-4c322992968f": {
-        "id": "a20db7e9-2fcb-46ed-a4a7-4c322992968f",
-        "name": "Wikipedia",
-        "keyword": "wiki",
-        "cmd": "https://en.wikipedia.org/wiki/%s",
-        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
-        "is_default_search": true,
+    "587e3e4b-f7a3-427b-9ce3-13f77ef0512d": {
+        "id": "587e3e4b-f7a3-427b-9ce3-13f77ef0512d",
+        "name": "nuxtjs api",
+        "keyword": "nuxtapi",
+        "cmd": "https://fr.nuxtjs.org/api",
+        "icon": "~/.config/ulauncher/icon/nuxt.png",
+        "is_default_search": false,
         "run_without_argument": false,
-        "added": 1605037364.6753771
+        "added": 1593302441.4097037
+    },
+    "168c13dc-d12f-4014-9eea-ca04307e559c": {
+        "id": "168c13dc-d12f-4014-9eea-ca04307e559c",
+        "name": "nuxtjs guide",
+        "keyword": "nuxt",
+        "cmd": "https://fr.nuxtjs.org/guide",
+        "icon": "~/.config/ulauncher/icon/nuxt.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593302467.7607918
+    },
+    "eb22b807-3187-482a-a0dd-7b90419a4d70": {
+        "id": "eb22b807-3187-482a-a0dd-7b90419a4d70",
+        "name": "vuejs guide",
+        "keyword": "vue",
+        "cmd": "https://vuejs.org/v2/guide/",
+        "icon": "~/.config/ulauncher/icon/vuejs.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593302553.0386581
+    },
+    "c8ce5b90-ac48-4a10-80e9-4c69595234db": {
+        "id": "c8ce5b90-ac48-4a10-80e9-4c69595234db",
+        "name": "vuejs api",
+        "keyword": "vueapi",
+        "cmd": "https://vuejs.org/v2/api/",
+        "icon": "~/.config/ulauncher/icon/vuejs.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593302583.2294958
+    },
+    "4acb27b7-d29e-4d46-950c-9a907d9a16ed": {
+        "id": "4acb27b7-d29e-4d46-950c-9a907d9a16ed",
+        "name": "django",
+        "keyword": "django",
+        "cmd": "https://docs.djangoproject.com/en/3.0/",
+        "icon": "~/.config/ulauncher/icon/django.jpg",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593302610.756678
+    },
+    "15320c1c-2f91-45cb-b65d-9129800ed2d9": {
+        "id": "15320c1c-2f91-45cb-b65d-9129800ed2d9",
+        "name": "django rest",
+        "keyword": "rest",
+        "cmd": "https://www.django-rest-framework.org/",
+        "icon": "~/.config/ulauncher/icon/drf.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593302637.3236818
+    },
+    "1bceeb17-10a7-4696-ba88-b782150f9b48": {
+        "id": "1bceeb17-10a7-4696-ba88-b782150f9b48",
+        "name": "html mdn",
+        "keyword": "html",
+        "cmd": "https://developer.mozilla.org/fr/docs/Web/HTML/Element/%s",
+        "icon": "~/.config/ulauncher/icon/html.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593940290.0625265
+    },
+    "af4fc690-c729-41b4-bc6d-716fcb1151e8": {
+        "id": "af4fc690-c729-41b4-bc6d-716fcb1151e8",
+        "name": "can i use",
+        "keyword": "caniuse",
+        "cmd": "https://caniuse.com/#search=%s",
+        "icon": "~/.config/ulauncher/icon/caniuse.png",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593949610.24842
+    },
+    "1f364cb5-df82-4414-ad80-81bcc1221855": {
+        "id": "1f364cb5-df82-4414-ad80-81bcc1221855",
+        "name": "youtube-dl",
+        "keyword": "youtube-dl",
+        "cmd": "#!/bin/bash\n\necho \"$1\"\n#snap run youtube-dl -o  \"~/music/youtube-dl/%(artist)s-%(track)s.%(ext)s\"  --extract-audio --audio-format best \"$@\"",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1594109397.721445
     }
 }

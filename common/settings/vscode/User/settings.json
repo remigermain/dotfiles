@@ -83,6 +83,7 @@
     "editor.renderControlCharacters": true,
 
     "terminal.integrated.shell.linux": "/bin/zsh",
+    "git.autofetch": true,
     
     // for flatpak
     // "terminal.integrated.shell.linux": "flatpak-spawn",
