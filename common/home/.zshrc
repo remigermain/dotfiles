@@ -22,16 +22,15 @@ setopt shwordsplit
 alias valgrind-flags="valgrind --tool=memcheck --leak-check=full"
 alias open="xdg-open"
 alias python="python3"
-alias py="python3"
 
-alias key_tablet="sh $HOME/scripts/Huion_WH1409.sh"
 MANPATH=/usr/share/man
 
 # active last session tmux
-tmux ls
-if [[ $? == 0 ]];
-then
-	tmux attach-session -t $(echo "1 - $(tmux ls | wc -l)" | bc);
+tmux ls &>/dev/null
+if [[ $? == 0 ]]; then
+	tmux attach-session -t $(echo "1 - $(tmux ls | wc -l)" | bc) &>/dev/null
+else
+	tmux &>/dev/null
 fi
 
 # git ignore
