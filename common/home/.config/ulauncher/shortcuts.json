@@ -108,5 +108,15 @@
         "is_default_search": false,
         "run_without_argument": false,
         "added": 1594109397.721445
+    },
+    "f393008f-ddd5-40dc-b4d0-ced0e9526492": {
+        "id": "f393008f-ddd5-40dc-b4d0-ced0e9526492",
+        "name": "accent",
+        "keyword": "accent",
+        "cmd": "gsettings set org.app.quickchar showapp true",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1605637098.9086907
     }
 }

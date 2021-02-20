@@ -19,19 +19,60 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 setopt shwordsplit
 
-alias valgrind-flags="valgrind --tool=memcheck --leak-check=full"
+alias vgf="valgrind --tool=memcheck --leak-check=full"
 alias open="xdg-open"
 alias python="python3"
 
 MANPATH=/usr/share/man
 
 # active last session tmux
-tmux ls &>/dev/null
-if [[ $? == 0 ]]; then
-	tmux attach-session -t $(echo "1 - $(tmux ls | wc -l)" | bc) &>/dev/null
-else
-	tmux &>/dev/null
-fi
+# tmux ls &>/dev/null
+# if [[ $? == 0 ]]; then
+# 	tmux attach-session -t $(echo "1 - $(tmux ls | wc -l)" | bc) &>/dev/null
+# else
+# 	tmux &>/dev/null
+# fi
+
+############################################
+###       multimedia
+############################################
+
+function ydl () {
+	youtube-dl -o  "$HOME/youtube-dl/%(artist)s-%(track)s.%(ext)s"  --extract-audio --audio-format best "$@"
+}
+
+############################################
+###       docker
+############################################
+function dps () {
+	docker ps -a
+}
+
+# docker
+function dcps () {
+	docker-compose ps -a
+}
+
+function dfclean () {
+	echo "clean image..."
+	docker image rm -f $(sudo docker images -q) 1&>/dev/null
+	echo "clean volume..."
+	docker volume prune -f 1&>/dev/null
+	echo "clean system..."
+	docker system prune -f 1&>/dev/null
+}
+
+############################################
+###       utils
+############################################
+
+function fram () {
+	sync
+	# Clear PageCache, dentries and inodes.
+	echo 3 > /proc/sys/vm/drop_caches 
+	sudo swapoff -a
+	sudo swapon -a
+}
 
 # git ignore
 function gi() {
@@ -51,28 +92,6 @@ function cvenv() {
 	deactivate
 }
 
-function ydl () {
-	youtube-dl -o  "$HOME/youtube-dl/%(artist)s-%(track)s.%(ext)s"  --extract-audio --audio-format best "$@"
-}
-
-# docker
-function dps () {
-	docker ps -a
-}
-
-function dfclean () {
-	echo "clean image..."
-	docker image rm -f $(sudo docker images -q) 1&>/dev/null
-	echo "clean volume..."
-	docker volume prune -f 1&>/dev/null
-	echo "clean system..."
-	docker system prune -f 1&>/dev/null
-}
-
-function fram () {
-	sync
-	# Clear PageCache, dentries and inodes.
-	echo 3 > /proc/sys/vm/drop_caches 
-	sudo swapoff -a
-	sudo swapon -a
+function genv() {
+	python3 "$HOME/scripts/generate_env.py" $@
 }

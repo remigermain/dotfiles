@@ -10,6 +10,7 @@ apps=(
     ulauncher
     keepassxc
     transmission
+    ImageMagick
 
     # ops
     terminator
@@ -22,7 +23,7 @@ apps=(
     sudo
     tree
 
-    #docker
+    # docker
     moby-engine
     docker-compose 
 

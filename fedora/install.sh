@@ -3,10 +3,10 @@
 echo -e "[FEDORA]"
 cd $(dirname "$0")
 
-# ./packages.sh
-# ./gnome.sh
-# ./vscode.sh
-# ../common/install.sh
+./packages.sh
+./gnome.sh
+./vscode.sh
+../common/install.sh
 
 
 # extra
