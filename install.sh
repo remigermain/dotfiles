@@ -7,6 +7,8 @@ fi
 
 if [[ $1 == "fedora" ]]; then
     ./fedora/install.sh
+elif [[ $1 == "server" ]]; then
+    ./server/install.sh
 else
     echo "wrong os..."
     exit 0
