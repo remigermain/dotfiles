@@ -8,3 +8,12 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 echo "link zshrc..."
 rm -rf $HOME/.zshrc
 ln -s $(pwd)/home/.zshrc $HOME/.zshrc
+
+
+echo "link .vimrc..."
+rm -rf $HOME/.vimrc
+ln -s $(pwd)/home/.vimrc $HOME/.vimrc
+
+
+echo "link scripts..."
+ln -s  "$(pwd)/home/scripts" "$HOME/scripts" 

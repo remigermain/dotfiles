@@ -10,3 +10,6 @@ app=(
 
 echo "install app..."
 pip install ${app[@]}
+
+echo "install linter..."
+pip install -r "../tools/python3_linter.txt"
