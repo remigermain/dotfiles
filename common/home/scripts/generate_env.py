@@ -7,7 +7,7 @@ import json
 
 
 def get_random_secret_key():
-    allowed_char = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
+    allowed_char = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^*-_=+'
     return ''.join(secrets.choice(allowed_char) for i in range(50))
 
 
@@ -36,9 +36,7 @@ def main():
             env[key] = extra[val]()
 
     # create/merge with original env file
-    if flag.merge:
-        if not os.path.exists(flag.input) or not os.path.isfile(flag.input):
-            error(f"env file \"{flag.input}\" not exist.")
+    if flag.merge and os.path.exists(flag.input) and os.path.isfile(flag.input):
         with open(flag.input, "r") as f:
             _file = reg_space.sub(" ", f.read()).split("\n")
             for line in _file:

@@ -54,7 +54,7 @@
     //"gitlens.views.compare.location": "scm",
     //"gitlens.views.search.location": "scm",
     //"gitlens.showWhatsNewAfterUpgrades": false,
-    "git.confirmSync": true,
+    "git.confirmSync": false,
     
     // highlight html
     "editor.occurrencesHighlight": false,
@@ -67,9 +67,9 @@
     },
     "workbench.colorTheme": "One Dark Pro",
     "python.jediEnabled": false,
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnType": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
