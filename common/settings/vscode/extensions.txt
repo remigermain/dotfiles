@@ -1,5 +1,4 @@
 ailuffy3.lodash-free-snippets
-alefragnani.Bookmarks
 alexcvzz.vscode-sqlite
 AttilioCapocchiani.vuejs-helper
 batisteo.vscode-django
@@ -32,3 +31,5 @@ VisualStudioExptTeam.vscodeintellicode
 wholroyd.jinja
 xabikos.JavaScriptSnippets
 zhuangtongfa.material-theme
+alefragnani.Bookmarks
+pflannery.vscode-versionlens

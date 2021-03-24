@@ -38,7 +38,7 @@ MANPATH=/usr/share/man
 ############################################
 
 function ydl () {
-	youtube-dl -o  "$HOME/youtube-dl/%(artist)s-%(track)s.%(ext)s"  --extract-audio --audio-format best "$@"
+	sudo ytmdl $1 --ignore-errors --on-meta-error skip --level DEBUG --nolocal
 }
 
 ############################################

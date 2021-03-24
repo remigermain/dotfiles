@@ -47,14 +47,14 @@
     
     // git 
     "git.enableSmartCommit": true,
-    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.enabled": true,
     //"gitlens.views.repositories.location": "scm",
     //"gitlens.views.fileHistory.location": "scm",
     //"gitlens.views.lineHistory.location": "scm",
     //"gitlens.views.compare.location": "scm",
     //"gitlens.views.search.location": "scm",
     //"gitlens.showWhatsNewAfterUpgrades": false,
-    "git.confirmSync": false,
+    "git.confirmSync": true,
     
     // highlight html
     "editor.occurrencesHighlight": false,
@@ -67,9 +67,8 @@
     },
     "workbench.colorTheme": "One Dark Pro",
     "python.jediEnabled": false,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -84,6 +83,13 @@
 
     "terminal.integrated.shell.linux": "/bin/zsh",
     "git.autofetch": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnSave": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     
     // for flatpak
     // "terminal.integrated.shell.linux": "flatpak-spawn",
