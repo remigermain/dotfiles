@@ -1,11 +1,15 @@
 #!/bin/bash
 
-echo -e "\n[COMMON]"
 cd $(dirname "$0")
 
-./flatpak.sh
-./zsh.sh
-./python_package.sh
-./javscript_package.sh
 ./config.sh
-./themes.sh
+
+# install package
+./packages/flatpak.sh
+./packages/javascript.sh
+./packages/python.sh
+./packages/other.sh
+
+
+./system.sh
+./theme.sh

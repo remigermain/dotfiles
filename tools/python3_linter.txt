@@ -1,5 +1,0 @@
-pycodestyle
-black
-pylint
-pep8
-flake8

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo -e "[SERVER]"
+echo -e "\ninstall for server..."
 cd $(dirname "$0")
 
 ./packages.sh
-../common/zsh.sh
+./zsh.sh
