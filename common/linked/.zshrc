@@ -30,12 +30,23 @@ function backup() {
 }
 
 function full-upgrade() {
+	color-blue "[ system update ]"
 	sudo dnf upgrade $1
-    flatpak upgrade $1
-    sudo snap refresh $1
-    pip install --upgrade pip
-    pipx upgrade-all $1
-    yarn global upgrade-interactive $1
+	
+  color-blue "[ flatpak update ]"
+  flatpak upgrade $1
+	
+  color-blue "[ snap update ]"
+  sudo snap refresh $1
+	
+  color-blue "[ python update ]"
+  pip install --upgrade pip pipx
+	
+  color-blue "[ pipx  update ]"
+  pipx upgrade-all $1
+
+	color-blue "[ yarn update ]"
+  yarn global upgrade-interactive $1
 }
 
 # active last session tmux

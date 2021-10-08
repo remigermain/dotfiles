@@ -24,10 +24,13 @@ app=(
 
 )
 
+echo "upgrade pip..."
+pip install --upgrade pip
+
 echo "install pipx..."
 pip install pipx --user
+python -m pipx install ensurepath
 
-python -m pipx install ensurepath	
 echo "install packages..."
 python -m pipx install ${app[@]}
 

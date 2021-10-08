@@ -15,7 +15,6 @@ ms-azuretools.vscode-docker
 ms-python.python
 ms-toolsai.jupyter
 ms-vscode.atom-keybindings
-ms-vscode.cpptools
 mubaidr.vuejs-extension-pack
 octref.vetur
 Orta.vscode-jest
@@ -23,7 +22,6 @@ pflannery.vscode-versionlens
 PKief.material-icon-theme
 tombonnike.vscode-status-bar-format-toggle
 vincaslt.highlight-matching-tag
-vsciot-vscode.vscode-arduino
 wholroyd.jinja
 xabikos.JavaScriptSnippets
 zhuangtongfa.material-theme

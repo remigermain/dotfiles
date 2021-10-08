@@ -70,7 +70,7 @@ if __name__ == "__main__":
                         default=True)
     parser.add_argument("-o", "--output", help="set the outupt file name", default=".env")
     parser.add_argument("-i", "--input", help="set the input file name", default=".env")
-    parser.add_argument("-e", "--export", action="store_true", help="ad export prefix", default=False)
+    parser.add_argument("-e", "--export", action="store_true", help="add export prefix", default=False)
     parser.add_argument('other', nargs='*')
     flag = parser.parse_args()
     main()
