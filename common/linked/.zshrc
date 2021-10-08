@@ -26,7 +26,7 @@ alias python="python3"
 MANPATH=/usr/share/man
 
 function backup() {
-	$SCRIPTS_PATH/backup.sh
+	$SCRIPTS_PATH/backup.sh $@
 }
 
 function full-upgrade() {
