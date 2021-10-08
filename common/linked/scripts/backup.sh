@@ -8,8 +8,6 @@ $(which codium) --list-extensions > ./common/linked/codium/extensions.txt
 
 LINE=$(git status -s | wc -l)
 if [ $LINE -gt 0 ]; then
-	echo $1
-	echo "$1 $([[ $1 != \"-y\" ]] && echo "oui" || echo "non" )"
 	if [[ $1 != "-y" ]]; then
 		echo -e "the change:"
 		git status -s
