@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source $HOME/.extra.zshrc
-echo $(color-blue "backup...")
+color-blue "backup..."
 
 cd $DOTFILE_PATH
 $(which codium) --list-extensions > ./common/linked/codium/extensions.txt
@@ -30,7 +30,7 @@ if [ $LINE -gt 0 ]; then
     git add .
     git commit -m "$MSG"
     git push
-    echo $MSG
+    color-blue $MSG
 else
     echo "no change found..."
 fi
